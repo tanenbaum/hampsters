@@ -1,0 +1,33 @@
+body {
+	background: none;
+	color: #AA8439;
+}
+
+h1 {
+	text-align: center;
+}
+
+div.hamster-row {
+	width: 100%;
+	background-repeat: repeat-x;
+}
+
+.hamster0 {
+	height: 48px;
+	background-image: url(Images/hamster0.gif);
+}
+
+.hamster1 {
+	height: 70px;
+	background-image: url(Images/hamster1.gif);
+}
+
+.hamster2 {
+	height: 70px;
+	background-image: url(Images/hamster2.gif);
+}
+
+.hamster3 {
+	height: 74px;
+	background-image: url(Images/hamster3.gif);
+}
