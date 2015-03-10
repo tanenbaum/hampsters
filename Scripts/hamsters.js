@@ -10,7 +10,7 @@ function injectHamsters() {
 			hamsters.innerHTML += '<div class="hamster-row ' + hamster + '"></div>';
 
 			img = (img + 1) % 4;
-			timeout -= 100;
+			timeout *= 0.95;
 
 			hamsters.lastChild.scrollIntoView();
 
